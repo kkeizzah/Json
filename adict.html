@@ -93,7 +93,7 @@
                 }
                 
                 const data = await response.json();
-                const imageUrls = data.images;
+                const thumbnails = data.thumbnails || data.images; // Fallback to old structure
                 const grid = document.getElementById('thumbnailGrid');
                 const loadingMessage = document.getElementById('loadingMessage');
                 
@@ -102,13 +102,16 @@
                     loadingMessage.remove();
                 }
                 
-                // Display fetched images
-                imageUrls.forEach((imgSrc, index) => {
+                // Display fetched thumbnails
+                thumbnails.forEach((thumbnail, index) => {
                     const box = document.createElement('div');
                     box.className = "border-4 border-red-600 bg-green-900/20 rounded-xl p-2 shadow-[0_0_20px_2px_rgba(0,255,0,0.5)] hover:scale-105 transition transform duration-300";
                     
-                    const title = index === 0 ? "DJ ROLEX 245 CLUB BANGERS 2025" : `Thumbnail ${index + 1}`;
-                    const desc = "Kenyan Youtubers";
+                    // Handle both old and new JSON structures
+                    const imgSrc = thumbnail.imageUrl || thumbnail;
+                    const title = thumbnail.title || (index === 0 ? "DJ ROLEX 245 CLUB BANGERS 2025" : `Thumbnail ${index + 1}`);
+                    const desc = thumbnail.description || "Kenyan Youtubers";
+                    const price = thumbnail.price || (250 + Math.floor(Math.random() * 250)); // Default price range
                     
                     box.innerHTML = `
                         <img src="${imgSrc}" alt="${title}" class="rounded mb-2 mx-auto w-full aspect-video object-cover transition duration-500 hover:scale-110"
@@ -116,7 +119,7 @@
                         <div class="bg-black/60 p-2 rounded">
                             <h2 class="text-center text-lg">${title}</h2>
                             <p class="text-center text-sm text-gray-300">${desc}</p>
-                            <p class="text-center text-green-400 font-bold mt-1">Price: KSH 250-500</p>
+                            <p class="text-center text-green-400 font-bold mt-1">Price: KSH ${price}</p>
                         </div>
                     `;
                     
