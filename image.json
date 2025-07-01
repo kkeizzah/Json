@@ -1,21 +1,76 @@
 {
-    "images": [
-        "https://files.catbox.moe/6znnxy.png",
-        "https://files.catbox.moe/o3ae2z.jpg",
-        "https://files.catbox.moe/62ubyn.jpg",
-        "https://files.catbox.moe/vk63iw.jpg",
-        "https://files.catbox.moe/o21s9x.jpg",
-        "https://files.catbox.moe/6wkauf.jpg",
-        "https://files.catbox.moe/ppwrx6.jpg",
-        "https://files.catbox.moe/qj7dzo.jpg",
-        "https://files.catbox.moe/bt0m4h.jpg",
-        "https://files.catbox.moe/v118k3.jpg",
-        "https://files.catbox.moe/iw43e3.jpg",
-        "https://files.catbox.moe/b87y1y.jpg",
-        "https://files.catbox.moe/6e40e0.jpg",
-        "https://files.catbox.moe/9npnzw.jpg",
-        "https://files.catbox.moe/6ztoaz.jpg",
-        "https://files.catbox.moe/1q97n1.jpg",
-        "https://files.catbox.moe/tm28xv.png"
+    "thumbnails": [
+        {
+            "imageUrl": "https://files.catbox.moe/6znnxy.png",
+            "title": "DJ ROLEX 245 CLUB BANGERS 2025",
+            "description": "Kenyan Youtubers",
+            "price": 500
+        },
+        {
+            "imageUrl": "https://files.catbox.moe/o3ae2z.jpg",
+            "title": "Thumbnail 2",
+            "description": "Kenyan Youtubers",
+            "price": 350
+        },
+        {
+            "imageUrl": "https://files.catbox.moe/62ubyn.jpg",
+            "title": "Thumbnail 3",
+            "description": "Kenyan Youtubers",
+            "price": 250
+        },
+        {
+            "imageUrl": "https://files.catbox.moe/vk63iw.jpg",
+            "title": "Thumbnail 4",
+            "description": "Kenyan Youtubers",
+            "price": 400
+        },
+        {
+            "imageUrl": "https://files.catbox.moe/o21s9x.jpg",
+            "title": "Thumbnail 5",
+            "description": "Kenyan Youtubers",
+            "price": 300
+        },
+        {
+            "imageUrl": "https://files.catbox.moe/6wkauf.jpg",
+            "title": "Thumbnail 6",
+            "description": "Kenyan Youtubers",
+            "price": 450
+        },
+        {
+            "imageUrl": "https://files.catbox.moe/ppwrx6.jpg",
+            "title": "Thumbnail 7",
+            "description": "Kenyan Youtubers",
+            "price": 250
+        },
+        {
+            "imageUrl": "https://files.catbox.moe/qj7dzo.jpg",
+            "title": "Thumbnail 8",
+            "description": "Kenyan Youtubers",
+            "price": 350
+        },
+        {
+            "imageUrl": "https://files.catbox.moe/bt0m4h.jpg",
+            "title": "Thumbnail 9",
+            "description": "Kenyan Youtubers",
+            "price": 500
+        },
+        {
+            "imageUrl": "https://files.catbox.moe/v118k3.jpg",
+            "title": "Thumbnail 10",
+            "description": "Kenyan Youtubers",
+            "price": 300
+        },
+        {
+            "imageUrl": "https://files.catbox.moe/iw43e3.jpg",
+            "title": "Thumbnail 11",
+            "description": "Kenyan Youtubers",
+            "price": 400
+        },
+        {
+            "imageUrl": "https://files.catbox.moe/b87y1y.jpg",
+            "title": "Thumbnail 12",
+            "description": "Kenyan Youtubers",
+            "price": 250
+        }
     ]
 }
